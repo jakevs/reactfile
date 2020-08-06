@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-// import Body from "./components/Body";
+import AdvancedGridList from "./components/Body";
 import Footer from "./components/Footer";
 
 class App extends React.Component {
@@ -16,9 +16,7 @@ class App extends React.Component {
     return (
       <>
         <Header />
-        <h1>Hello, my name is {this.state.title}!</h1>
-        <h2>I am a {this.state.subtitle}!</h2>
-        <h4>{this.state.text}</h4>
+        <AdvancedGridList />
         <Footer />
       </>
     );
