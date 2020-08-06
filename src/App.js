@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import MainFeaturedPost from "./components/Title";
 import AdvancedGridList from "./components/Body";
 import Footer from "./components/Footer";
 
@@ -16,6 +17,7 @@ class App extends React.Component {
     return (
       <>
         <Header />
+        <MainFeaturedPost />
         <AdvancedGridList />
         <Footer />
       </>
