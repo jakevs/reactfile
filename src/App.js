@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import MainFeaturedPost from "./components/Title";
 import AdvancedGridList from "./components/Body";
+import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer";
 
 class App extends React.Component {
@@ -19,6 +20,7 @@ class App extends React.Component {
         <Header />
         <MainFeaturedPost />
         <AdvancedGridList />
+        <Skills />
         <Footer />
       </>
     );

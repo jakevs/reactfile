@@ -7,15 +7,13 @@ import {
   Grid,
   Link
 } from "@material-ui/core/";
-import html from "./assets/html.png";
-import css from "./assets/css.png";
+import html from "./assets/icons8-html-5-48.png";
+import css from "./assets/icons8-css3-48.png";
 import material from "./assets/material.svg";
 import javascript from "./assets/js.png";
-import react from "./assets/react.png";
-import jquery from "./assets/jquery.png";
-import node from "./assets/node.png";
-import mysql from "./assets/mysql.png";
-import mongo from "./assets/mongodb.png";
+import react from "./assets/icons8-react-100.png";
+import node from "./assets/logo-javascript-png-node-js-logo-javascript-vector-png-266.png";
+import mongo from "./assets/icons8-mongodb-48.png";
 import Title from "../Title";
 import Section from "../Section";
 
@@ -59,7 +57,7 @@ export default function Skills() {
       className={classes.root}
     >
       <Title>
-        <Typography>Technologies and</Typography>
+        <Typography>Technologies and Skills</Typography>
       </Title>
       <Paper elevation={1} className={classes.paper}>
         <Grid container>
@@ -103,24 +101,11 @@ export default function Skills() {
             </Link>
             <Typography className={classes.title}>Material UI</Typography>
           </Grid>
-
-          <Grid item xs={3}>
-            <Link href="https://jquery.com" target="-blank">
-              <img src={jquery} alt="JQuery" className={classes.logos} />
-            </Link>
-            <Typography className={classes.title}>JQuery</Typography>
-          </Grid>
           <Grid item xs={3}>
             <Link href="https://nodejs.org/en/" target="-blank">
               <img src={node} alt="Node" className={classes.logos} />
             </Link>
             <Typography className={classes.title}>Node</Typography>
-          </Grid>
-          <Grid item xs={3}>
-            <Link href="https://www.mysql.com/" target="-blank">
-              <img src={mysql} alt="MySql" className={classes.logos} />
-            </Link>
-            <Typography className={classes.title}>MySql</Typography>
           </Grid>
           <Grid item xs={3}>
             <Link href="https://www.mongodb.com" target="-blank">
