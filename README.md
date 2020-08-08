@@ -17,7 +17,7 @@ This page is an extension of my Professional Portfolio. The UI was broken up int
 To inspect the live application, follow the link:
 
 ```
-https://github.com/jakevs/reactfile
+https://jakevs.github.io/reactfile/
 ```
 
 ## Contributing
