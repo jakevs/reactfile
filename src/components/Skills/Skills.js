@@ -9,13 +9,11 @@ import {
 } from "@material-ui/core/";
 import html from "./assets/icons8-html-5-48.png";
 import css from "./assets/icons8-css3-48.png";
-import material from "./assets/material.svg";
-import javascript from "./assets/js.png";
+import javascript from "./assets/icons8-javascript-logo-64.png";
 import react from "./assets/icons8-react-100.png";
 import node from "./assets/logo-javascript-png-node-js-logo-javascript-vector-png-266.png";
 import mongo from "./assets/icons8-mongodb-48.png";
 import Title from "../Title";
-import Section from "../Section";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -51,11 +49,7 @@ export default function Skills() {
   const classes = useStyles();
 
   return (
-    <Section
-      id="skills"
-      style={{ background: "#f2f2f2" }}
-      className={classes.root}
-    >
+    <div id="skills" style={{ background: "#f2f2f2" }} className={classes.root}>
       <Title>
         <Typography>Technologies and Skills</Typography>
       </Title>
@@ -95,12 +89,7 @@ export default function Skills() {
             </Link>
             <Typography className={classes.title}>React.js</Typography>
           </Grid>
-          <Grid item xs={3}>
-            <Link href="https://material-ui.com" target="-blank">
-              <img src={material} alt="Material UI" className={classes.logos} />
-            </Link>
-            <Typography className={classes.title}>Material UI</Typography>
-          </Grid>
+
           <Grid item xs={3}>
             <Link href="https://nodejs.org/en/" target="-blank">
               <img src={node} alt="Node" className={classes.logos} />
@@ -115,6 +104,6 @@ export default function Skills() {
           </Grid>
         </Grid>
       </Paper>
-    </Section>
+    </div>
   );
 }
