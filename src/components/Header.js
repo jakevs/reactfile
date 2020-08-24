@@ -19,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
     minHeight: 128,
     alignItems: "flex-start",
     paddingTop: theme.spacing(1),
-    paddingBottom: theme.spacing(2)
+    paddingBottom: theme.spacing(2),
+    backgroundColor: "#1569C7"
   },
   title: {
     flexGrow: 1,
