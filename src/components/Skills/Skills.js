@@ -53,11 +53,12 @@ export default function Skills() {
       <Title>
         <Typography>Technologies and Skills</Typography>
       </Title>
+      <Typography>Projects</Typography>
       <Paper elevation={1} className={classes.paper}>
         <Grid container>
           <Grid item xs={3}>
             <Link
-              href="https://www.w3.org/Style/CSS/Overview.en.html"
+              href="https://jakevs.github.io/responsiveportfolio/"
               target="-blank"
             >
               <img src={html} alt="HTML" className={classes.logos} />
@@ -66,7 +67,7 @@ export default function Skills() {
           </Grid>
           <Grid item xs={3}>
             <Link
-              href="https://www.w3.org/Style/CSS/Overview.en.html"
+              href="https://jakevs.github.io/weatherdashboard/"
               target="-blank"
             >
               <img src={css} alt="CSS" className={classes.logos} />
@@ -74,7 +75,10 @@ export default function Skills() {
             <Typography className={classes.title}>CSS</Typography>
           </Grid>
           <Grid item xs={3}>
-            <Link href="https://www.javascript.com" target="-blank">
+            <Link
+              href="https://jakevs.github.io/workdayscheduler/"
+              target="-blank"
+            >
               <img
                 src={javascript}
                 alt="Javascript"
@@ -84,20 +88,29 @@ export default function Skills() {
             <Typography className={classes.title}>JavaScript</Typography>
           </Grid>
           <Grid item xs={3}>
-            <Link href="https://reactjs.org" target="-blank">
+            <Link
+              href="https://stormy-thicket-60781.herokuapp.com/"
+              target="-blank"
+            >
               <img src={react} alt="React.js" className={classes.logos} />
             </Link>
             <Typography className={classes.title}>React.js</Typography>
           </Grid>
 
           <Grid item xs={3}>
-            <Link href="https://nodejs.org/en/" target="-blank">
+            <Link
+              href="https://github.com/jakevs/readmegenerator"
+              target="-blank"
+            >
               <img src={node} alt="Node" className={classes.logos} />
             </Link>
             <Typography className={classes.title}>Node</Typography>
           </Grid>
           <Grid item xs={3}>
-            <Link href="https://www.mongodb.com" target="-blank">
+            <Link
+              href="https://stark-river-74201.herokuapp.com/"
+              target="-blank"
+            >
               <img src={mongo} alt="Mongo DB" className={classes.logos} />
             </Link>
             <Typography className={classes.title}>Mongo DB</Typography>
