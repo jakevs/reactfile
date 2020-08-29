@@ -4,7 +4,8 @@ import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import MenuIcon from "@material-ui/icons/Menu";
+import HomeIcon from "@material-ui/icons/Home";
+import Link from "@material-ui/core/Link";
 import SearchIcon from "@material-ui/icons/Search";
 import MoreIcon from "@material-ui/icons/MoreVert";
 
@@ -35,14 +36,12 @@ export default function Header() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar className={classes.toolbar}>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
+          <Link
             color="inherit"
-            aria-label="open drawer"
+            href="https://jakevs.github.io/responsiveportfolio/"
           >
-            <MenuIcon />
-          </IconButton>
+            <HomeIcon />
+          </Link>{" "}
           <Typography className={classes.title} variant="h5" noWrap>
             Hello! My Name is James Van Slyke!
           </Typography>
