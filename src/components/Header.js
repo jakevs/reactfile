@@ -45,9 +45,6 @@ export default function Header() {
           <Typography className={classes.title} variant="h5" noWrap>
             Hello! My Name is James Van Slyke!
           </Typography>
-          <IconButton aria-label="search" color="inherit">
-            <SearchIcon />
-          </IconButton>
           <IconButton
             aria-label="display more actions"
             edge="end"
