@@ -6,8 +6,9 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import HomeIcon from "@material-ui/icons/Home";
 import Link from "@material-ui/core/Link";
-import SearchIcon from "@material-ui/icons/Search";
-import MoreIcon from "@material-ui/icons/MoreVert";
+import Menu from "@material-ui/core/Menu";
+import MenuItem from "@material-ui/core/MenuItem";
+import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,9 +30,37 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+const options = [
+  "None",
+  "Atria",
+  "Callisto",
+  "Dione",
+  "Ganymede",
+  "Hangouts Call",
+  "Luna",
+  "Oberon",
+  "Phobos",
+  "Pyxis",
+  "Sedna",
+  "Titania",
+  "Triton",
+  "Umbriel"
+];
+
+const ITEM_HEIGHT = 48;
+
 export default function Header() {
   const classes = useStyles();
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
 
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -45,13 +74,40 @@ export default function Header() {
           <Typography className={classes.title} variant="h5" noWrap>
             Hello! My Name is James Van Slyke!
           </Typography>
-          <IconButton
-            aria-label="display more actions"
-            edge="end"
-            color="inherit"
-          >
-            <MoreIcon />
-          </IconButton>
+          <div>
+            <IconButton
+              aria-label="more"
+              aria-controls="long-menu"
+              aria-haspopup="true"
+              onClick={handleClick}
+            >
+              <MoreVertIcon color="white" />
+            </IconButton>
+            <Menu
+              id="long-menu"
+              anchorEl={anchorEl}
+              keepMounted
+              open={open}
+              onClose={handleClose}
+              PaperProps={{
+                style: {
+                  maxHeight: ITEM_HEIGHT * 4.5,
+                  width: "20ch",
+                  color: "white"
+                }
+              }}
+            >
+              {options.map((option) => (
+                <MenuItem
+                  key={option}
+                  selected={option === "Pyxis"}
+                  onClick={handleClose}
+                >
+                  {option}
+                </MenuItem>
+              ))}
+            </Menu>
+          </div>
         </Toolbar>
       </AppBar>
     </div>
