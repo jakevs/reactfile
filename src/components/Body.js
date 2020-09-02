@@ -10,8 +10,8 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   description: {
-    fontFamily: "'Lato', sans-serif",
-    fontSize: theme.spacing(3),
+    fontFamily: "'Lexend Peta', sans-serif",
+    fontSize: theme.spacing(2.5),
     textAlign: "center"
   }
 }));
