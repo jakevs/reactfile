@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1
   },
   menuButton: {
+    color: "white",
     marginRight: theme.spacing(2)
   },
   toolbar: {
@@ -81,6 +82,7 @@ export default function Header() {
               aria-label="more"
               aria-controls="long-menu"
               aria-haspopup="true"
+              color="inherit"
               onClick={handleClick}
             >
               <MoreVertIcon color="white" />
@@ -94,8 +96,7 @@ export default function Header() {
               PaperProps={{
                 style: {
                   maxHeight: ITEM_HEIGHT * 4.5,
-                  width: "20ch",
-                  color: "white"
+                  width: "20ch"
                 }
               }}
             >
