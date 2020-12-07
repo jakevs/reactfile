@@ -16,7 +16,6 @@ function Copyright() {
         JVSIII
       </Link>{" "}
       {new Date().getFullYear()}
-      {"."}
     </Typography>
   );
 }
