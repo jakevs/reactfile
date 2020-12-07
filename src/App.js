@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import About from "./components/About";
 import MainFeaturedPost from "./components/Title";
 import AdvancedGridList from "./components/Body";
 import Skills from "./components/Skills/Skills";
@@ -18,6 +19,7 @@ class App extends React.Component {
     return (
       <>
         <Header />
+        <About />
         <MainFeaturedPost />
         <AdvancedGridList />
         <Skills />
