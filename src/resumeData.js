@@ -1,111 +1,110 @@
 let resumeData = {
-    imagebaseurl:"https://ivy555.github.io/",
-    name: "James Van Slyke",
-    role: "Full-Stack Web Developer",
-    linkedinId: "https://www.linkedin.com/in/james-van-slyke/",
-    skypeid: "Skype",
-    roleDescription: "I like to learn and create applications in various parts of software development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
+  imagebaseurl: "https://ivy555.github.io/",
+  name: "James Van Slyke",
+  role: "Full-Stack Web Developer",
+  linkedinId: "https://www.linkedin.com/in/james-van-slyke/",
+  skypeid: "Skype",
+  roleDescription:
+    "I like to learn and create applications in various parts of software development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+  socialLinks: [
     {
-    name:"linkedin",
-    url: "https://www.linkedin.com/in/james-van-slyke/",
-    className:"fa fa-linkedin"
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/james-van-slyke/",
+      className: "fa fa-linkedin"
     },
     {
-    name:"github",
-    url:"https://github.com/jakevs",
-    className:"fa fa-github"
+      name: "github",
+      url: "https://github.com/jakevs",
+      className: "fa fa-github"
     },
     {
-    name:"skype",
-    url:"",
-    className:"fa fa-twitter"
+      name: "skype",
+      url: "",
+      className: "fa fa-twitter"
     }
-    ],
-    aboutme:"I am Full-Stack Web Developer specializing in front-end development; demonstrated history working in the construction, fire safety systems, security systems, service, and sales industries with a penchant for driving scalability. A graduate from the University of Kansas with a Full Stack Web Development certificate possessing a strong aptitude to build web applications from mockup to roll out.",
-    address:"Lawrence, KS",
-    website:"",
-    education:[
+  ],
+  aboutme:
+    "I am Full-Stack Web Developer specializing in front-end development; demonstrated history working in the construction, fire safety systems, security systems, service, and sales industries with a penchant for driving scalability. A graduate from the University of Kansas with a Full Stack Web Development certificate possessing a strong aptitude to build web applications from mockup to roll out.",
+  address: "Lawrence, KS",
+  website: "",
+  education: [
     {
-    UniversityName:"University of Kansas",
-    specialization:"Psychology",
-    MonthOfPassing:"Dec",
-    YearOfPassing:"2011",
-    Achievements:"President of Tau Kappa Epsilon"
+      UniversityName: "University of Kansas",
+      specialization: "Psychology",
+      MonthOfPassing: "Dec",
+      YearOfPassing: "2011",
+      Achievements: "President of Tau Kappa Epsilon"
     },
     {
-    UniversityName:"University of Kansas",
-    specialization:"Full-Stack Development",
-    MonthOfPassing:"Aug",
-    YearOfPassing:"2020",
-    Achievements:"Cerficication"
+      UniversityName: "University of Kansas",
+      specialization: "Full-Stack Development",
+      MonthOfPassing: "Aug",
+      YearOfPassing: "2020",
+      Achievements: "Cerficication"
     }
-    ],
-    work:[
+  ],
+  work: [
     {
-    CompanyName:"Keller Fire & Safety",
-    specialization:"Engineered Fire Systems",
-    MonthOfLeaving:"Present Job",
-    YearOfLeaving:"Present Job",
-    Achievements:"NICET Certified"
+      CompanyName: "Keller Fire & Safety",
+      specialization: "Engineered Fire Systems",
+      MonthOfLeaving: "Present Job",
+      YearOfLeaving: "Present Job",
+      Achievements: "NICET Certified"
     },
     {
-    CompanyName:"Discount Movers",
-    specialization:"Management",
-    MonthOfLeaving:"Jan",
-    YearOfLeaving:"2017",
-    Achievements:"Mover of the Year 2015"
+      CompanyName: "Discount Movers",
+      specialization: "Management",
+      MonthOfLeaving: "Jan",
+      YearOfLeaving: "2017",
+      Achievements: "Mover of the Year 2015"
     }
-    ],
-    skillsDescription:"My Skills",
-    skills:[
+  ],
+  skillsDescription: "My Skills",
+  skills: [
     {
-    skillname:"HTML5"
+      skillname: "HTML5"
     },
     {
-    skillname:"CSS"
+      skillname: "CSS"
     },
     {
-    skillname:"HTML5"
-},
-{
-skillname:"CSS"
-},
+      skillname: "JavaScript"
+    },
     {
-    “skillname”:”Reactjs”
+      skillname: "React"
     }
-    ],
-    “portfolio”:[
+  ],
+  portfolio: [
     {
-    “name”:”project1",
-    “description”:”mobileapp”,
-    “imgurl”:”images/portfolio/phone.jpg”
+      name: "project1",
+      description: "mobileapp",
+      imgurl: "images/portfolio/phone.jpg"
     },
     {
-    “name”:”project2",
-    “description”:”mobileapp”,
-    “imgurl”:”images/portfolio/project.jpg”
+      name: "project2",
+      description: "mobileapp",
+      imgurl: "images/portfolio/project.jpg"
     },
     {
-    “name”:”project3",
-    “description”:”mobileapp”,
-    “imgurl”:”images/portfolio/project2.png”
+      name: "project3",
+      description: "mobileapp",
+      imgurl: "images/portfolio/project2.png"
     },
     {
-    name:"project4",
-    description:"mobileapp",
-    imgurl:"images/portfolio/phone.jpg"
+      name: "project4",
+      description: "mobileapp",
+      imgurl: "images/portfolio/phone.jpg"
     }
-    ],
-    testimonials:[
+  ],
+  testimonials: [
     {
-    description:"This is a sample testimonial",
-    name:"Some technical guy"
+      description: "This is a sample testimonial",
+      name: "Some technical guy"
     },
     {
-    description:"This is a sample testimonial",
-    name:"Some technical guy"
+      description: "This is a sample testimonial",
+      name: "Some technical guy"
     }
-    ]
-    }
-    export default resumeData
+  ]
+};
+export default resumeData;
