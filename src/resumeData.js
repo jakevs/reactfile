@@ -26,7 +26,7 @@ let resumeData = {
   aboutme:
     "I am Full-Stack Web Developer specializing in front-end development; demonstrated history working in the construction, fire safety systems, security systems, service, and sales industries with a penchant for driving scalability. A graduate from the University of Kansas with a Full Stack Web Development certificate possessing a strong aptitude to build web applications from mockup to roll out.",
   address: "Lawrence, KS",
-  website: "",
+  website: "https://jakevs.github.io/responsiveportfolio/",
   education: [
     {
       UniversityName: "University of Kansas",
