@@ -1,17 +1,19 @@
 import React, { Component } from "react";
+import "../About.css";
 
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    const mystyle = {
+      color: "black",
+      padding: "10px",
+      fontFamily: "Arial"
+    };
     return (
-      <section id="about">
+      <section style={mystyle} id="about">
         <div className="row">
           <div className="three columns">
-            <img
-              className="profile-pic"
-              src="./Images/profile pic.jpeg"
-              alt=""
-            />
+            <img className="profile-pic" src="Images/profile pic.jpeg" alt="" />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>

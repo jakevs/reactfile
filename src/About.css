@@ -1,0 +1,6 @@
+export #about {
+  background-image: url("/public/Images/bike\ sunset\ cliffs.jpeg");
+  background-size: contain;
+  background-position: top;
+  background: cover;
+}

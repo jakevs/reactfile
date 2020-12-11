@@ -5,7 +5,6 @@ import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import HomeIcon from "@material-ui/icons/Home";
-
 import Link from "@material-ui/core/Link";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -34,20 +33,13 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const options = [
-  "None",
-  "Atria",
-  "Callisto",
-  "Dione",
-  "Ganymede",
-  "Hangouts Call",
-  "Luna",
-  "Oberon",
-  "Phobos",
-  "Pyxis",
-  "Sedna",
-  "Titania",
-  "Triton",
-  "Umbriel"
+  "About",
+  "Contact",
+  "Education",
+  "Work",
+  "Skills",
+  "Projects",
+  "Testimonials"
 ];
 
 const ITEM_HEIGHT = 48;
@@ -75,7 +67,7 @@ export default function Header() {
             <HomeIcon />
           </Link>{" "}
           <Typography className={classes.title} variant="h5" noWrap>
-            Hello! My Name is James Van Slyke!
+            Hello! I'm James Van Slyke!
           </Typography>
           <div>
             <IconButton
