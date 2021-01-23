@@ -7,7 +7,8 @@ export default class About extends Component {
     const mystyle = {
       color: "black",
       padding: "10px",
-      fontFamily: "Arial"
+      fontFamily: "Arial",
+      backgroundImage: "url('./bikeCliffs.jpeg')"
     };
     return (
       <section style={mystyle} id="about">
